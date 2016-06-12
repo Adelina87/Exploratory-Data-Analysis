@@ -23,3 +23,4 @@ At last, this data frame is filtered to keep the rows corresponding to the requu
 ## Step 2 : Draw the graphs
 
 This step is dedicated to the construction of the graphs (one per .R file). Each file will be saved under a .png file, with same base name as the .R file.
+Note also that my configuration is in French. The short names of the days in graphs plot2.png to plot4.png are also in French.
