@@ -14,6 +14,7 @@ The data are loaded under character format, and not as factors. The conversion u
 For example, the conversion from factor to numeric class give the reference of the corresponding class, and not the real value.
 	
 The data are then converted to the appropriate data types (numeric or date/time).  The first two column are merged to a single date_time field to  benefit from the properties of lubridate library. 
+During the conversion, R generates NA values for each original '?' value in the source file. The corresponding lines are then removed from the Data frame, as they are not complete.
 
 All the column are then merged to a single data frame. 
 
